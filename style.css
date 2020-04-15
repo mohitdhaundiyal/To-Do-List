@@ -7,7 +7,7 @@
 body {
   background-image: linear-gradient(120deg, #e66465, #9198e5);
   color: white;
-  font-family: "poppins", sans-serif;
+  font-family: "Mukta", sans-serif;
   min-height: 100vh;
 }
 header,
@@ -17,6 +17,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+
 h1 {
   font-size: 4rem;
 }
@@ -111,9 +112,12 @@ select {
 }
 select {
   color: #fda085;
-  width: 10rem;
+  width: 11rem;
   cursor: pointer;
   padding: 1rem;
+  border: none;
+  border-radius: 0rem;
+  font-size: 1rem;
 }
 .select::after {
   content: "\25BC";
@@ -128,4 +132,7 @@ select {
 .select:hover::after {
   background: white;
   color: #f6d365;
+}
+option {
+  font-size: px;
 }
